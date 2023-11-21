@@ -78,25 +78,28 @@ menu {
 
 .section__content {
     display: flex;
-    width: inherit;
-    height: auto;
+    width: 100%;
+    height: inherit;
 
     &--column {
         flex-direction: column;
+        height: fit-content;
     }
 }
 
-.column__left {
+.column {
     flex: 1 1 auto;
-    width: 1rem;
-    padding: 3.5rem 0 0 2rem;
-    background-color: var(--primary);
-    color: var(--white);
-}
 
-.column__right {
-    flex: 1 1 auto;
-    width: 16rem;
-    margin: 4rem 0 4rem 0;
-    padding: 0 1.75rem 0 1.75rem;
+    &--left {
+        width: 1rem;
+        padding: 3.5rem 0 0 2rem;
+        background-color: var(--primary);
+        color: var(--white);
+    }
+
+    &--right {
+        width: 16rem;
+        margin: 4rem 0 4rem 0;
+        padding: 0 1.75rem 0 1.75rem;
+    }
 }
