@@ -74,6 +74,23 @@ menu {
 .section {
     display: flex;
     width: 100%;
+
+    &--column {
+        flex: 1 1 auto;
+
+        &-left {
+            width: 34.7%;
+            padding: 3.5rem 0 0 2rem;
+            background-color: var(--primary);
+            color: var(--white);
+        }
+
+        &-right {
+            width: 65.3%;
+            margin: 4rem 0 4rem 0;
+            padding: 0 1.75rem 0 1.75rem;
+        }
+    }
 }
 
 .section__content {
@@ -87,19 +104,5 @@ menu {
     }
 }
 
-.column {
-    flex: 1 1 auto;
 
-    &--left {
-        width: 1rem;
-        padding: 3.5rem 0 0 2rem;
-        background-color: var(--primary);
-        color: var(--white);
-    }
 
-    &--right {
-        width: 16rem;
-        margin: 4rem 0 4rem 0;
-        padding: 0 1.75rem 0 1.75rem;
-    }
-}
