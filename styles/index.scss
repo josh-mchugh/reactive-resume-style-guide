@@ -134,6 +134,11 @@ menu {
     margin-top: 3rem;
     margin-bottom: 0.5rem;
 }
+
+.header--experience {
+    margin-bottom: 0.25rem;
+}
+
 .header__title {
     flex: 1 1 auto;
     font-weight: 700;
@@ -207,4 +212,24 @@ menu {
     font-size: 0.75rem;
     text-decoration: none;
     color: var(--white);
+}
+
+.experience-position {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.25rem;
+    font-size: 0.75rem;
+}
+
+.experience-position__title {
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.experience-organization {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.75rem;    
 }
