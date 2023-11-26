@@ -130,6 +130,11 @@ menu {
     margin-bottom: 0.75rem;
 }
 
+.header--social {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
 .header__title {
     flex: 1 1 auto;
     font-weight: 700;
@@ -164,7 +169,7 @@ menu {
     display: flex;
     margin: 0 0 0 1.5rem;
     padding-right: 1rem;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     line-height: 1rem;
 }
 
@@ -182,4 +187,24 @@ menu {
 .contact__email {
     color: var(--white);
     text-decoration-line: none;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem 0 0 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
+
+.social__icon {
+    margin-right: 0.5rem;
+    color: var(--accent);
+}
+
+.social__link {
+    display: block;
+    margin-top: 0.25rem;
+    text-decoration: none;
+    color: var(--white);
 }
