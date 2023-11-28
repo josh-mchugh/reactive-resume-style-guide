@@ -231,5 +231,21 @@ menu {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 0.725rem;
     font-size: 0.75rem;    
 }
+
+.experience-description {
+    display: flex;
+    justify-content: center;
+    margin: 0.125rem 0 0.3rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+.experience-description__icon {
+    margin: 0.1rem 0.25rem 0 0;
+    text-align: center;
+    font-size: 0.5rem;
+    color: var(--primary);
+}
+
