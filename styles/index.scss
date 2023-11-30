@@ -77,6 +77,11 @@ menu {
     width: 100%;
 }
 
+.section--w-auto {
+    width: auto;
+
+}
+
 .section--column-left {
     flex: 1 1 auto;
     width: 34.7%;
@@ -103,8 +108,8 @@ menu {
     height: fit-content;
 }
 
-.section__content--w-auto {
-    width: auto;
+.section__content--wrap {
+    flex-wrap: wrap;
 }
 
 .name {
