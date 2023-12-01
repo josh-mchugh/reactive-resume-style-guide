@@ -7,6 +7,7 @@
     --content-background: rgba(224, 224, 224, 1);
     --page-background-shadow: rgba(0, 0, 0, 0.3);
     --white: rgba(255, 255, 255, 1);
+    --gray-300: rgb(209, 213, 219);
     --gray-700: rgb(55, 65, 81);
     --primary: rgb(17, 33, 47);
     --accent: rgb(43, 176, 255);
@@ -77,9 +78,12 @@ menu {
     width: 100%;
 }
 
+.section--w-50 {
+    width: 50%;
+}
+
 .section--w-auto {
     width: auto;
-
 }
 
 .section--column-left {
@@ -150,6 +154,7 @@ menu {
 
 .header--skill {
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .header__title {
@@ -269,4 +274,30 @@ menu {
     background-color: var(--primary);
     font-size: 0.75rem;
     color: var(--white);
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+    width: 100%;
+    margin: 0 1rem 0.5rem 1rem;
+    font-size: 0.75rem;
+}
+
+.skill__gauge {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    align-content: center;
+    width: 6rem;
+}
+
+.gauge-block {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--gray-300);
+}
+
+.gauge-block--active {
+    background-color: var(--accent);
 }
