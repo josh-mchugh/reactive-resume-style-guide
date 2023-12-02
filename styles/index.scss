@@ -159,6 +159,7 @@ menu {
 
 .header--certification {
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .header__title {
@@ -304,4 +305,24 @@ menu {
 
 .gauge-block--active {
     background-color: var(--accent);
+}
+
+.certification-degree {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.certification-degree__title {
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.certification-organization {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
